@@ -1,10 +1,10 @@
-package ca.nl.cna.riley.barrett;
+package src.main.java.ca.nl.cna.riley.barrett;
 
 import java.util.Scanner;
 
 public class FunWithIfs {
     public static void main(String[] args) {
-        System.out.println("Fun with arthimetic operaters");
+        System.out.println("Fun with arithmetic operators");
 
         Scanner input = new Scanner(System.in);
 

@@ -1,4 +1,4 @@
-package ca.nl.cna.riley.barrett;
+package src.main.java.ca.nl.cna.riley.barrett;
 
 import java.util.Scanner;
 
