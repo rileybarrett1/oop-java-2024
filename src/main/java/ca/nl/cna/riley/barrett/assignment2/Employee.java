@@ -4,12 +4,13 @@ package src.main.java.ca.nl.cna.riley.barrett.assignment2;
  * a class for creating a objectfor employees
  *
  */
-public class employee {
+public class Employee {
+
     private String Firstname;
     private String Lastname;
     private double salary;
 
-    public employee(String firstname, String lastname, double salary) {
+    public Employee(String firstname, String lastname, double salary) {
         Firstname = firstname;
         Lastname = lastname;
         this.salary = salary;

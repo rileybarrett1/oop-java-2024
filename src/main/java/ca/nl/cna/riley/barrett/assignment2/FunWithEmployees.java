@@ -32,10 +32,10 @@ public class FunWithEmployees {
             System.out.println("Enter Employee Salary:");
             double salary = input.nextDouble();
 
-            employee employee = new employee(firstName,lastName,salary);
+            Employee employee = new Employee(firstName,lastName,salary);
             employee.giveRaise(0.08);
 
-            System.out.printf("name: %s %s Salary:$%.2f\n",firstName,lastName, salary);
+            System.out.printf("name: %s %s Salary:$%.2f\n",employee.getFirstname(),employee.getLastname(), employee.getSalary());
 
             salaryTotal += employee.getSalary();
             employeeCount++;
